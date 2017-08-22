@@ -1,0 +1,17 @@
+HEAD = /export/singer_group3/Sihan/Tools/xdrfile-1.1.4/_install/include/xdrfile
+LIB = /export/singer_group3/Sihan/Tools/xdrfile-1.1.4/_install/lib
+
+.PHONY: clean
+
+RecTrjTRR_surf2.out: dist3D_pbc.o RecTrjTRR_surf2.o
+	icpc -DCPLUSPLUS -I $(HEAD) -L $(LIB) dist3D_pbc.o RecTrjTRR_surf2.o -openmp -lxdrfile -o RecTrjTRR_surf2.out
+
+RecTrjTRR_surf2.o: RecTrjTRR_surf2.cpp
+	icpc -c -DCPLUSPLUS -I $(HEAD) -L $(LIB) RecTrjTRR_surf2.cpp -openmp -lxdrfile
+
+dist3D_pbc.o: dist3D_pbc.cpp
+	icpc -c dist3D_pbc.cpp
+
+clean:
+	rm -f *.o
+

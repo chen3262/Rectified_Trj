@@ -1,0 +1,12 @@
+[ molecule ]
+Name
+Cl
+[ Number of molecules ]
+3
+[ Number of atoms per molecule ]
+1
+[ Time steps (ps) ]
+0.1
+[ atoms ]
+ Name	charge	   mass	
+   Cl  -1.00000    35.4500

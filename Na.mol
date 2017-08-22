@@ -1,0 +1,12 @@
+[molecule ]
+Name
+Na
+[ Number of molecules ]
+21
+[ Number of atoms per molecule ]
+1
+[ Time steps (ps) ]
+0.1
+[ atoms ]
+ Name	charge	   mass	
+   Na   1.00000    22.9900

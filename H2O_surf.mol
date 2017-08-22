@@ -1,0 +1,16 @@
+[ molecule ]
+Name
+H2O
+[ Number of molecules ]
+2690
+[ Number of atoms per molecule ]
+3
+[ Time steps (ps) ]
+0.1
+[ atoms ]
+ Name	charge	   mass	
+   OW  -0.84760    15.9994
+  HW1   0.42380    1.00800
+  HW2   0.42380    1.00800
+[ rcut (nm) ]
+0.3
