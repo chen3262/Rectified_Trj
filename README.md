@@ -1,5 +1,6 @@
-# xdrfile_fortran
+# Rectified_Trj
 
+<img src ="https://github.com/chen3262/Rectified_Trj/blob/master/pic.png" width="600">
 This is a C++ code to calculat velocity profiles from [GROMACS](http://www.gromacs.org/) trajectory files (.trr). This code used advanced algorithm to obtained velocity profiles by means of Rectified Trajectory, detailed in our paper [J. Phys. Chem. B, 2014, 118 (28), pp 8170–8178](http://pubs.acs.org/doi/abs/10.1021/jp5012523). [Openmp](http://www.openmp.org) are implented to fulfill parallel computing in multiple-processors computers. This code requires the [XTC Libray](http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library)
 
 ## Requirements
@@ -21,3 +22,6 @@ To test your build, do:
 ./a.out TRR GRO molinfo output.dens output.vx log.txt
 ```
 
+## License
+
+Copyright (C) 2017 Si-Han Chen chen.3262@osu.edu
