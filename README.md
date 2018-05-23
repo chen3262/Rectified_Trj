@@ -12,7 +12,7 @@ This is a C++ code to calculat velocity profiles from [GROMACS](http://www.groma
 After compiling the xdrfile-1.1.4 library on the local machine, cd into this repository. Then:
 
 ```bash
-icpc -DCPLUSPLUS -I "path to xdrfile header files" -L "path to xdrfile library" test.cpp -lxdrfile
+icpc -DCPLUSPLUS -I "path to xdrfile header files" -L "path to xdrfile library" RecTrjTRR.cpp -lxdrfile
 ```
 
 ## Testing
